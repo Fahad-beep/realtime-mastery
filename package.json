@@ -4,6 +4,8 @@
   "description": "\"# Realtime Patterns Mastery\"",
   "main": "index.js",
   "type": "module",
+  "private": "true",
+  "packageManager": "pnpm@10.34.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "turbo run dev",
@@ -27,5 +29,10 @@
     "@types/node": "^25.9.1",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "ioredis": "^5.4.1"
+    }
   }
 }
