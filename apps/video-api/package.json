@@ -1,0 +1,22 @@
+{
+  "name": "video-api",
+  "version": "1.0.0",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc watch src/index.ts"
+  },
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:*",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@empire/redis-core": "workspace:*",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

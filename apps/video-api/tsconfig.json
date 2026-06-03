@@ -2,9 +2,7 @@
   "extends": "@empire/typescript-config/node.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
-    "declaration": true,
-    "declarationMap": true
+    "rootDir": "./src"
   },
   "include": ["src/**/*"]
 }

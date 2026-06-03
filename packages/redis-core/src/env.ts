@@ -5,6 +5,7 @@ dotenv.config();
 
 const envSchema = z.object({
   REDIS_URL: z.string().default("redis://host.docker.internal:6379"),
+  PORT: z.number().default(4001),
 });
 
 const _envData = envSchema.safeParse(process.env);
