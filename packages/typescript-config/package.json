@@ -1,10 +1,8 @@
 {
   "name": "@empire/typescript-config",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
   "private": "true",
-  "publishConfig": {
-    "access": "restricted"
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:^1.0.0"
   }
 }

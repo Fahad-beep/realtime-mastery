@@ -1,7 +1,6 @@
 {
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["es2022"],
-    "outDir": "./dist"
+    "moduleResolution": "nodenext"
   }
 }

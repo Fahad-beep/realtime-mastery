@@ -1,0 +1,13 @@
+{
+  "name": "@empire/shared",
+  "private": "true",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:^1.0.0"
+  }
+}

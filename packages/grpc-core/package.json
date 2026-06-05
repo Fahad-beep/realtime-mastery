@@ -1,0 +1,22 @@
+{
+  "name": "@empire/grpc-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "generate:types": "pnpm exec proto-loader-gen-types --grpcLib=@grpc/grpc-js --outDir=src/generated proto/*.proto",
+    "build": "pnpm run generate:types && tsc"
+  },
+  "packageManager": "pnpm@10.34.1",
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:*",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1"
+  }
+}

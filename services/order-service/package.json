@@ -1,0 +1,20 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:^1.0.0",
+    "@types/express": "^5.0.6",
+    "tsx": "^4.22.4"
+  },
+  "dependencies": {
+    "@empire/shared": "workspace:*",
+    "express": "^5.2.1"
+  }
+}

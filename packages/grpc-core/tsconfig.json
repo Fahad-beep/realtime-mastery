@@ -1,0 +1,4 @@
+{
+  "extends": "@empire/typescript-config/node.js",
+  "include": ["src/**/*"]
+}

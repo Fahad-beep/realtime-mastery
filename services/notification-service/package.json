@@ -1,0 +1,19 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "private": "true",
+  "dependencies": {
+    "@empire/shared": "workspace:*",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@empire/typescript-config": "workspace:^1.0.0",
+    "@types/express": "^5.0.6",
+    "tsx": "^4.22.4"
+  }
+}

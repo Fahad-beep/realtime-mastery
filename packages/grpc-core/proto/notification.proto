@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package notification;
+
+service EmailService {
+    rpc VerifyEmailSent (EmailRequest) returns (EmailResponse) {}
+}
+
+message EmailRequest {
+    string user_id = 1;
+    string order_id = 2;
+}
+
+message EmailResponse {
+    bool success = 1;
+    string timestamp = 2;
+}

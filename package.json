@@ -1,38 +1,17 @@
 {
-  "name": "realtime-mastery",
-  "version": "1.0.0",
-  "description": "\"# Realtime Patterns Mastery\"",
-  "main": "index.js",
-  "type": "module",
+  "name": "empire-root",
   "private": "true",
   "packageManager": "pnpm@10.34.1",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "clean": "turbo run clean"
-  },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
-  },
   "devDependencies": {
-    "@types/cors": "^2.8.19",
     "@types/node": "^25.9.1",
-    "tsx": "^4.22.4",
+    "turbo": "^2.9.16",
     "typescript": "^6.0.3"
   },
-  "pnpm": {
-    "overrides": {
-      "ioredis": "^5.4.1"
-    }
+  "scripts": {
+    "dev": "turbo run dev",
+    "biuld": "turbo run build"
+  },
+  "dependencies": {
+    "grpc-core": "^1.0.6"
   }
 }
